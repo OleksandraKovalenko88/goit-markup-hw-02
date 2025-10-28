@@ -15,6 +15,7 @@ a {
 
 /* #region header */
 .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -76,8 +77,11 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
+}
+.hero-button:hover,
+.hero-button:focus{
+   background-color: #404BBF;
 }
 
 /* #endregion hero */
@@ -116,16 +120,9 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
-.ourteam-item {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
-}
 
 .ourteam-item-title {
     font-weight: 500;
@@ -153,14 +150,9 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
-.ourportfolio-item {
-    border: 1px solid #e7e9fc;
-    width: 360px;
-    height: 420px;
-    background: #fff;
-}
 
 .ourportfolio-item-title {
     font-weight: 500;
